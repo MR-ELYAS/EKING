@@ -1,5 +1,8 @@
 import os
 import time
-print("\033[1;34m\n Congratulations! Your Device Support This Tools\033[1;37m")
-time.sleep(1)
+import sys
+print("\033[1;34m UPDATING..")
+time.sleep(0.9)
+os.system("git pull")
+print("\033[1;32m UPDATE DONE. ")
 import EKING
